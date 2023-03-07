@@ -1,0 +1,26 @@
+* {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.tieude {
+    text-align: center;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    color: #993738;
+}
+
+td {
+    border: 3px solid red;
+    width: 15px;
+    height: 12px;
+}
+
+td:hover {
+    border: 3px double red;
+}
+
+table {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}

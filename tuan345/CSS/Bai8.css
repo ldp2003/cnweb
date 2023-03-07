@@ -1,0 +1,29 @@
+.border_color {
+    border: 10px solid;
+    border-color: greenyellow yellow cadetblue magenta;
+}
+
+.border_style {
+    border: 10px;
+    border-color: greenyellow yellow cadetblue magenta;
+    border-style: solid dotted groove double;
+}
+
+.border_width {
+    border: solid;
+    border-color: greenyellow yellow cadetblue magenta;
+    border-width: 5px 10px 15px 20px;
+}
+.border_radius {
+    border: 10px solid;
+    border-radius: 0px 30px 70px 20px;
+    border-color: greenyellow yellow cadetblue magenta;
+}
+
+.adv-hemisphere {
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #cc0000;
+    border-radius: 100px 100px 0 0;
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+body {
+    background-image: url(IMG/meo2.png), url(IMG/meo1.png);
+    background-position: "right bottom", "left top";
+    background-repeat:no-repeat;
+}

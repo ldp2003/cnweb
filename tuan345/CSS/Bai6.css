@@ -1,0 +1,22 @@
+.container,
+.row {
+    width: 100%;
+}
+
+.row:before {
+    display: table;
+    content: "";
+}
+
+.row:after {
+    clear: both;
+}
+
+.col1,
+.col2,
+.col3 {
+    float: left;
+    width: 25.33%;
+    margin: 1%;
+    padding: 1%;
+}
