@@ -2,18 +2,15 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-#flex_container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 3%;
-    padding-right: 3%;
-    gap: 80px;
-}
+
 
 #menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+
 }
 
 #menuLeft {
@@ -40,6 +37,16 @@
     border: 0;
     cursor: pointer;
     background-color: white;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #direction {
@@ -193,8 +200,9 @@ a{
 
 #benefits{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     align-items: center;
+    justify-items: center;
 }
 
 #ingre{
@@ -314,12 +322,13 @@ a{
     border: 1px solid #569b78;
 }
 
-.end{
+#end{
     display: grid;
     grid-template-columns: 45% 45%;
     color:white;
     background-color: #23262c;
     gap: 10%;
+    
 }
 
 .endLeft{
