@@ -1,81 +1,398 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <div id="flex_container">
-            <div id="menu">
-                <div id="menuLeft">
-                    <p style="color: #569b78;"><b>Shop</b></p>
-                    <p>Offers</p>
-                    <p>Our story</p>
-                    <p>Blog</p>
+<body>
+    <div id="flex_container">
+        <div id="menu">
+            <div id="menuLeft">
+                <p style="color: #569b78;"><b>Shop</b></p>
+                <p>Offers</p>
+                <p>Our story</p>
+                <p>Blog</p>
+            </div>
+            <div>
+                <img src="img/Image 1 (13).png">
+            </div>
+            <div id="menuRight">
+                <input type="search" class="search-css" placeholder="Search product..">
+                <button class="button"><img src="img/Button 1.png"></button>
+                <button class="button"><img src="img/Button 1 (1).png"></button>
+            </div>
+        </div>
+        <div id="direction">
+            <div style="color: #569b78;">Home</div>
+            <img src="img/Arrow forward ios 1.png">
+            <div style="color: #569b78;">Shop</div>
+            <img src="img/Arrow forward ios 1.png">
+            <div style="color: #569b78;">Products type</div>
+            <img src="img/Arrow forward ios 1.png">
+            <div>Detail</div>
+        </div>
+        <div id="product">
+            <div id="productImg">
+                <div class="img1"><img src="img/Image 1.png"></div>
+                <div class="img2"><img src="img/Image 1 (1).png"></div>
+                <div class="img3"><img src="img/Image 1 (2).png"></div>
+                <div class="img4"><img src="img/Image 1 (3).png"></div>
+                <div class="img5"><img src="img/Image 1 (4).png">
+                    <div class="bestSeller">
+                        Best seller </div>
+                </div>
+            </div>
+            <div id="productDetail">
+                <div style="font-size: 350%;"><b>Product name</b></div>
+                <div>Aliquip fugiat ipsum nostrud ex et eu incididunt</div>
+                <div style="display: flex; gap: 15px; align-items: center;">
+                    <p style="font-size: 250%; margin: 0; color: #569b78;">$32</p>
+                    <p style="font-size:100%">$42</p>
+                </div>
+                <div>In ullamco labero mollit et exercitation fugiat exercitation minim ex sint ullamco exerciation amet
+                    officia mollit. Qui Cillum Pariatur in con</div>
+                <div id="rec">
+                    <div><b>368</b> reviews</div>
+                    <div><b>823</b> sold </div>
+                    <div style="display: flex ;align-items: center;"><img src="img/Rating 1.png"><b>4.5</b></4.5>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center;"><img src="img/Check circle 1.png"> Free shipping on
+                    order over $49USD</div>
+                <div style="display: flex; align-items: center;"><img src="img/Check circle 1.png"> Free + easy returns
                 </div>
                 <div>
-                    <img src="img/Image 1 (13).png">
+                    <b>Choose size</b><br>
+                    <select class="select-css">
+                        <option>50.00 ML</option>
+                    </select>
                 </div>
-                <div id ="menuRight">
-                    <input type="search" class="search-css" placeholder="Search product..">
-                    <img src="img/Button 1.png">
-                    <img src="img/Button 1 (1).png">
+                <div>
+                    <b>Quantity</b><br>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <img src="img/Button 1 (3).png">
+                        <p>1</p>
+                        <img src="img/Button 1 (4).png">
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; height: 10%;">
+                    <button class="button button1">Add to bag</button>
+                    <button class="button button2">Checkout</button>
                 </div>
             </div>
-            <div id="direction">
-                <div style="color: #569b78;">Home</div>
-                <img src="img/Arrow forward ios 1.png">
-                <div style="color: #569b78;">Shop</div>
-                <img src="img/Arrow forward ios 1.png">
-                <div style="color: #569b78;">Products type</div>
-                <img src="img/Arrow forward ios 1.png">
-                <div>Detail</div>
-            </div>
-            <div id="product">
-                <div id="productImg">
-                    <div class="img1"><img src="img/Image 1.png"></div>
-                    <div class="img2"><img src="img/Image 1 (1).png"></div>
-                    <div class="img3"><img src="img/Image 1 (2).png"></div>
-                    <div class="img4"><img src="img/Image 1 (3).png"></div>
-                    <div class="img5"><img src="img/Image 1 (4).png"><div style="position: absolute; top: 10px; right: 25%; border-radius: 10px; background-color: #fac668; padding: 5px;"> Best seller </div></div>
-                </div>
-                <div id="productDetail">
-                    <div style="font-size: 350%;"><b>Product name</b></div>
-                    <div>Aliquip fugiat ipsum nostrud ex et eu incididunt</div>
+        </div>
+        <div>
+            <h2>Related products</h2>
+            <div id="relProducts">
+                <div class="relProductinfo">
+                    <img src="img/Image 1 (5).png">
+                    <div>
+                        <h3>Product title</h3>
+                        <p>Labore sint ipsum dolore mollit</p>
+
+                    </div>
                     <div style="display: flex; gap: 15px; align-items: center;">
-                        <p style="font-size: 250%; margin: 0; color: #569b78;">$32</p> 
+                        <p style="font-size: 250%; margin: 0;">$32</p>
                         <p style="font-size:100%">$42</p>
                     </div>
-                    <div>In ullamco labero mollit et exercitation fugiat exercitation minim ex sint ullamco exerciation amet officia mollit. Qui Cillum Pariatur in con</div>
-                    <div id="rec">
-                        <div><b>368</b> reviews</div>  
-                        <div><b>823</b> sold </div>
-                        <div style="display: flex ;align-items: center;"><img src="img/Rating 1.png"><b>4.5</b></4.5></div>
-                    </div>
-                    <div style="display: flex; align-items: center;"><img src="img/Check circle 1.png"> Free shipping on order over $49USD</div>
-                    <div style="display: flex; align-items: center;"><img src="img/Check circle 1.png"> Free + easy returns</div>
-                    <div>
-                        <b>Choose size</b><br>
-                        <select class="select-css">
-                            <option>50.00 ML</option>
-                        </select>
+                    <button class="button buttonCart"><img src="img/Button 1 (2).png"></button>
+                </div>
+                <div class="relProductinfo">
+                    <div style="position: relative;">
+                        <img src="img/Image 1 (6).png">
+                        <div class="bestSeller bestSeller1">Best-seller</div>
                     </div>
                     <div>
-                        <b>Quantity</b><br>
-                        <div style="display: flex; gap: 10px; align-items: center;">
-                            <img src="img/Button 1 (3).png">
-                            1
-                            <img src="img/Button 1 (4).png">
-                        </div>  
+                        <h3>Product title</h3>
+                        <p>Labore sint ipsum dolore mollit</p>
                     </div>
-                    <div style="display: flex; justify-content: space-between; height: 10%;">
-                        <div style="display: flex; border: 1px solid #569b78; border-radius: 10px; color:#569b78; width: 45%; height: 150%; font-size: 200%; justify-content: center; align-items: center;">Add to bag</div>
-                        <div style="display: flex; background-color: #569b78; border-radius: 10px; color:white; width: 45%; height: 150%; font-size: 200%; justify-content: center; align-items: center;">Checkout</div>
+                    <div style="display: flex; gap: 15px; align-items: center;">
+                        <p style="font-size: 250%; margin: 0; ">$22</p>
+                        <p style="font-size:100%">$28</p>
+                    </div>
+                    <button class="button buttonCart"><img src="img/Button 1 (2).png"></button>
+                </div>
+                <div class="relProductinfo">
+                    <div style="position: relative;">
+                        <img src="img/Image 1 (7).png">
+                        <div class="bestSeller bestSeller1">Best-seller</div>
+                    </div>
+                    <div>
+                        <h3>Product title</h3>
+                        <p>Labore sint ipsum dolore mollit</p>
+
+                    </div>
+                    <div style="display: flex; gap: 15px; align-items: center;">
+                        <p style="font-size: 250%; margin: 0;">$48</p>
+                        <p style="font-size:100%">$56</p>
+                    </div>
+                    <button class="button buttonCart"><img src="img/Button 1 (2).png"></button>
+                </div>
+                <div class="relProductinfo">
+                    <div>
+                        <img src="img/Image 1 (8).png">
+                        <div class="bestSeller bestSeller1">Best-seller</div>
+                    </div>
+                    <div>
+                        <h3>Product title</h3>
+                        <p>Labore sint ipsum dolore mollit</p>
+
+                    </div>
+                    <div style="display: flex; gap: 15px; align-items: center;">
+                        <p style="font-size: 250%; margin: 0;">$18</p>
+                        <p style="font-size:100%">$26</p>
+                    </div>
+                    <button class="button buttonCart"><img src="img/Button 1 (2).png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <div class="descMenu">
+                <button class="button buttonDesc" style="background-color: #c8e5d8;"><a
+                        href="#benefits">Benefits</a></button>
+                <button class="button buttonDesc"><a href="#ingre">Ingredients</a></button>
+                <button class="button buttonDesc"><a href="#htu">How to use</a></button>
+                <button class="button buttonDesc"><a href="#review">Review</a></button>
+                <button class="button buttonDesc">FAQs</button>
+            </div>
+            <div id="benefits">
+                <div>
+                    <h1>Benefits</h1>
+                    <p>Consectetur excepteur elit ullamco incididunt voluptate tempor exercitation. Lorem commodo
+                        ullamco quis velit officia aute laboris elit sit exercitation ut esse pariatur occaecat quis</p>
+                    <h3>Laboris consequat ad</h3>
+                    <p>Consectetur excepteur elit ullamco incididunt voluptate tempor exercitation. Lorem commodo
+                        ullamco quis velit officia aute laboris elit sit exercitation ut esse pariatur</p>
+                    <h3>Duis duis do labore pariatur</h3>
+                    <p>Ad qui aliqua nulla nostrud consectetur laboris nostrud commodo voluptate. Lorem id qui laborum
+                        aute voluptate</p>
+                    <h3>Deserunt ex</h3>
+                    <p>Cupidatat culpa id do laboris nisi aliqua eu. Veniam aliqua duis Lorem adipisicing et minim velit
+                        quis</p>
+                </div>
+                <img src="img/Image 1 (9).png">
+            </div>
+            <div id="ingre">
+                <h1>Ingredients</h1>
+                <div id="ingreList">
+                    <div class="ingreDetail">
+                        <img src="img/Image 1 (10).png" width="100%" height="300px">
+                        <div>
+                            <h2>Hyaluronic acid</h2>
+                            <p>Elit do sit excepteur dulis labore nisi sit anim adipsicing duis incididunt sit anim sint
+                                est exercitation aute consectetur irure</p>
+                        </div>
+                    </div>
+                    <div class="ingreDetail">
+                        <img src="img/Image 1 (11).png" width="100%" height="300px">
+                        <div>
+                            <h2>Green tea</h2>
+                            <p>Tempor adipisicing aute pariatur magna enim Lorem voluptate incididunt culpa ex veniam
+                                sunt occaecat tempor</p>
+                        </div>
+                    </div>
+                    <div class="ingreDetail">
+                        <img src="img/Image 1 (12).png" width="100%" height="300px">
+                        <div>
+                            <h2>Olive oil</h2>
+                            <p>Cupidatat culpa id do laboris nisi aliqua eu. Veniam aliqua duis Lorem adipisicing et
+                                minim velit quis</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="button buttonIngre">See full list</button>
+            </div>
+            <div id="htu">
+                <h1>How to use</h1>
+                <div style="position: relative; width: 100%; height: 100%;">
+                    <img src="img/Image 1 (14).png" width="100%">
+                    <div
+                        style="position: absolute; top: 40%; left: 43%; color: white; background-color: black; width: 14%; height: 10%; text-align: center; vertical-align: middle;">
+                        Watch video</div>
+                </div>
+            </div>
+            <div id="review">
+                <div class="reviewHead">
+                    <h1>Reviews</h1>
+                    <button class="button buttonRev">Write a review</button>
+                </div>
+                <div class="reviewBody">
+                    <div class="reviewRating">
+                        <div class="rating1">
+                            <h1>4.5</h1>
+                            <img src="img/Rating 1.png">
+                            <p>368 Reviews</p>
+                        </div>
+                        <div class="rating1">
+                            <p>5</p>
+                            <img src="img/Rating 1 (2).png">
+                            <img src="img/Slider 1.png">
+                            <p>60%</p>
+                        </div>
+                        <div class="rating1">
+                            <p>4</p>
+                            <img src="img/Rating 1 (2).png">
+                            <img src="img/Slider 1.png">
+                            <p>25%</p>
+                        </div>
+                        <div class="rating1">
+                            <p>3</p>
+                            <img src="img/Rating 1 (2).png">
+                            <img src="img/Slider 1.png">
+                            <p>10%</p>
+                        </div>
+                        <div class="rating1">
+                            <p>2</p>
+                            <img src="img/Rating 1 (2).png">
+                            <img src="img/Slider 1.png">
+                            <p>5%</p>
+                        </div>
+                        <div class="rating1">
+                            <p>1</p>
+                            <img src="img/Rating 1 (2).png">
+                            <img src="img/Slider 1.png">
+                            <p>0%</p>
+                        </div>
+                    </div>
+                    <div class="reviewComment">
+                        <div class="comment">
+                            <div class="commentHead">
+                                <img src="img/Button 1 (1).png">
+                                <div class="commentID">
+                                    <p><b>Annie Haley</b> 3d ago</p>
+                                    <img src="img/Rating 1 (1).png">
+                                </div>
+                            </div>
+                            <p>Commodo consequat quis nisi dolor laboris in aute occaecat quis consequat culpa
+                                consectetur aliqua. Laborum cupidatat id reprehenderit non cillum irure sunt commodo</p>
+                        </div>
+                        <div class="comment">
+                            <div class="commentHead">
+                                <img src="img/Button 1 (1).png">
+                                <div class="commentID">
+                                    <p><b>Green William</b> 3d ago</p>
+                                    <img src="img/Rating 1 (1).png">
+                                </div>
+                            </div>
+                            <p>Consectetur tempor nulla veniam duis nostrud non. Non qui minim Lorem adipisicing qui
+                                veniam commodo non irure aute elit incididunt qui excepteur officia sunt</p>
+                        </div>
+                        <div class="comment">
+                            <div class="commentHead">
+                                <img src="img/Button 1 (1).png">
+                                <div class="commentID">
+                                    <p><b>James Rower</b> 3d ago</p>
+                                    <img src="img/Rating 1 (1).png">
+                                </div>
+                            </div>
+                            <p>Ullamco enim ut culpa irure non qui est duis et aute proident reprehenderit tempor
+                                mollit. Aliquip excepteur nisi culpa reprehenderit adipisicing aliquip excepteur nulla
+                                minim</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>FAQs</h1>
+                <div id="faq">
+                    <div class="faqBody">
+                        <div class="faqDetail faqDetail1">
+                            <div>
+                                <h2 style="color: #569b78;">Nisi nisi magna nostrud non consequat conse ?</h2>
+                                <p>Ullamco enim ut culpa irure non qui est duis et aute proident reprehenderit tempor
+                                    mollit. Aliquip excepteur nisi culpa reprehenderit adipisicing aliquip excepteur
+                                    nulla minim</p>
+                            </div>
+                            <img src="img/Caret down 1.png">
+                        </div>
+                        <div class="faqDetail">
+                            <div>
+                                <p>Nostrud eiusmod exercitation duis reprehenderit laboris ullamco. Magna culpa cillum ?</p>
+                            </div>
+                            <img src="img/Caret right 1.png">
+                        </div>
+                        <div class="faqDetail">
+                            <div>
+                                <p>Fugiat pariatur minim eiusmod aute adipisicing aliqua occaecat ?</p>
+                            </div>
+                            <img src="img/Caret right 1.png">
+                        </div>
+                    </div>
+                    <div class="faqBody">
+                        <div class="faqDetail">
+                            <div>
+                                <p>Nostrud eiusmod exercitation duis</p>
+                            </div>
+                            <img src="img/Caret right 1.png">
+                        </div>
+                        <div class="faqDetail">
+                            <div>
+                                <p>Velit duis ipsum sint consectetur id sint Lorem minim fugiat. Velit velit veniam ullamco est adipisicing ?</p>
+                            </div>
+                            <img src="img/Caret right 1.png">
+                        </div>
+                        <div class="faqDetail">
+                            <div>
+                                <p>Deserunt consequat esse occaecat anim sunt quis mollit officia adipisicing incididunt ?</p>
+                            </div>
+                            <img src="img/Caret right 1.png">
+                        </div>
+                        <div class="faqDetail">
+                            <div>
+                                <p>Aliqup irure mollit deserunt ipsum sit sunt veniam?</p>
+                            </div>
+                            <img src="img/Caret right 1.png">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="end">
+            <div class="endLeft">
+                <div class="endLeftDetail">
+                    <h2>About</h2>
+                    <p>Home</p>
+                    <p>Shop</p>
+                    <p>Our story</p>
+                    <p>Blog</p>
+                    <select class="selectLan">
+                        <option>English</option>
+                    </select>
+                </div>
+                <div class="endLeftDetail">
+                    <h2>Help</h2>
+                    <p>Shipping & Returns</p>
+                    <p>Track Order</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="endLeftDetail">
+                    <h2>Contact</h2>
+                    <p>Phone:</p>
+                    <p><b>(+1) 123 456 7893</b></p>
+                    <p>Email:</p>
+                    <p><b>name@email.com</b></p>
+                </div>
+            </div>
+            <div class="endRight">
+                <h1>Receive new promotions</h1>
+                <p>Duis ea tempor commodo amet reprehende</p>
+                <div style="display: flex; flex-direction: row; width: 50%;">
+                    <input type="email" class="emailEnd" placeholder="Input your email">
+                    <button class="button buttonEnd">Subscribe</button>
+                </div>  
+                <br>
+                <div style="display: flex; flex-direction: row; gap: 3px">
+                    <img src="img/Twitter 1.png">
+                    <img src="img/Facebook 1.png">
+                    <img src="img/LinkedIn 1.png">
+                    <img src="img/YouTube 1.png">
+                </div>
+                <p style="align-self: center;">&#169; 2022 Brand, Inc. &#149; Privacy &#149; Terms &#149; Sitemap</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
