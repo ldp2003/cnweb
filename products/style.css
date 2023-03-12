@@ -1,8 +1,10 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+body {
+    margin: 0px;
+}
 
 #menu {
     display: flex;
@@ -158,30 +160,30 @@
     padding: 5px;
 }
 
-.bestSeller1{
+.bestSeller1 {
     right: 5%;
 }
 
-.buttonCart{
+.buttonCart {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.descMenu{
+.descMenu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
-.buttonDesc{
+.buttonDesc {
     color: #569b78;
     height: 70px;
     width: 20%;
@@ -189,188 +191,211 @@
     border-radius: 5px;
 }
 
-.buttonDesc:hover{
+.buttonDesc:hover {
     background-color: #c8e5d8;
 }
 
-a{
-    color:#569b78;
+a {
+    color: #569b78;
     text-decoration: none;
 }
 
-#benefits{
-    display: grid;
-    grid-template-columns: 40% 60%;
+#benefits {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-items: center;
+    gap: 100px;
 }
 
-#ingre{
+#ingre {
     display: flex;
     flex-direction: column;
 }
 
-#ingreList{
+#ingreList {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
 }
 
-.ingreDetail{
+.ingreDetail {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 500px;
 }
 
-.buttonIngre{
+.buttonIngre {
     align-self: center;
     border: 1px solid #569b78;
     border-radius: 5px;
     color: #569b78;
-    width: 15%;
-    height :150%;
+    width: 300px;
+    height: 30px;
     font-size: 130%;
 }
 
-#review{
+#buttonPlay {
+    color: white;
+    background-color: black;
+    vertical-align: middle;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+#review {
     background-color: #fafafb;
     display: flex;
     flex-direction: column;
 }
 
-.reviewHead{
+.reviewHead {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.buttonRev{
-     border: 1px solid #569b78;
+.buttonRev {
+    border: 1px solid #569b78;
     border-radius: 5px;
     color: #569b78;
-    width: 15%;
-    height: 150%;
+    width: 200px;
+    height: 50px;
     font-size: 130%;
 }
 
-.reviewBody{
+.reviewBody {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 10%
+    gap: 70px;
 }
-.reviewRating{
+
+.reviewRating {
     display: flex;
     flex-direction: column;
 }
 
-.rating1{
+.rating1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    gap: 5%;
+    gap: 20px;
 }
 
-.reviewComment{
+.reviewComment {
     display: flex;
     flex-direction: column;
 }
 
-.comment{
+.comment {
     display: flex;
     flex-direction: column;
 }
 
-.commentHead{
+.commentHead {
     display: flex;
     flex-direction: row;
 }
 
-.commentID{
+.commentID {
     display: flex;
     flex-direction: column;
 }
 
-#faq{
+#reviewList{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 15px;
+    align-items: center;
+}
+#faq {
     display: flex;
     flex-direction: row;
     gap: 10%;
 }
 
-.faqBody{
+.faqBody {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 45%;
 }
 
-.faqDetail{
+.faqDetail {
     display: flex;
     flex-direction: row;
     width: 100%;
     border: 1px solid #c5c7c9;
     border-radius: 5px;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 5%
+    align-items: baseline;
+    padding: 10px 10px 10px 10px;
 }
 
-.faqDetail1{
+.faqDetail1 {
     border: 1px solid #569b78;
 }
 
-#end{
-    display: grid;
-    grid-template-columns: 45% 45%;
-    color:white;
-    background-color: #23262c;
-    gap: 10%;
-    
+.faqDetail h2 {
+    color: #569b78;
+    margin: 0px 0px 10px 0px;
 }
 
-.endLeft{
+.faqDetail p {
+    margin: 0px;
+}
+
+#end {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    color: white;
+    background-color: #23262c;
+    gap: 10%;
+
+}
+
+.endLeft {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 20px;
+    gap: 10px;
 }
 
-.endLeftDetail{
+.endLeftDetail {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 150px;
 }
 
-.selectLan{
-    background-color:#23262c;
+.selectLan {
+    background-color: #23262c;
     border: 1px solid white;
-    width: 80%;
+    width: 150px;
     height: 150%;
     border-radius: 5px;
     color: white;
     font-size: 130%;
 }
 
-.endRight{
+.endRight {
     display: flex;
     flex-direction: column;
 }
 
-
-
 .emailEnd {
-    
     background-color: #23262c;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 5px 0px 0px 5px;
+    width: 250px;
+    height: 40px;
+    color: white;
 }
 
-.buttonEnd{
-    
+.buttonEnd {
     background-color: #569b78;
     border-radius: 0px 5px 5px 0px;
     color: white;
-
+    width: 100px;
 }
