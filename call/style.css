@@ -1,0 +1,305 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#flex_container {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 870px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#menuFunction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#chatting{
+    position: relative;
+}
+
+.noty{
+    position: absolute;
+    top: -15%;
+    right: -10%;
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+}
+
+#menuProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bodyCenter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 910px;
+    gap: 10px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+#centerHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttonHead {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 30px;
+    color: red;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#meetingInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#internal {
+    color: white;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    background-color: palevioletred;
+    border: 0;
+}
+
+#image {
+    display: grid;
+    grid-template-areas: 'img1 img1 img1' 'img1 img1 img1' 'img2 img3 img4';
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.img1 {
+    grid-area: img1;
+    position: relative;
+}
+.info1{
+    position: absolute;
+    display: flex;
+    top: 3%;
+    left: 3%;
+    height: 10%;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    background-color: gray;
+    padding: 5px;
+}
+.mic1{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+.info2{
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 3%;
+    height: 10%;
+    font-size: 80%;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    background-color: gray;
+    padding: 5px;
+}
+.mic2{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    width: 10%;
+}
+.img2 {
+    grid-area: img2;
+    width: 100%;
+    position: relative;
+}
+
+.img3 {
+    grid-area: img3;
+    width: 100%;
+    position: relative;
+}
+
+.img4 {
+    grid-area: img4;
+    width: 100%;
+    position: relative;
+}
+
+#centerFunction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#endMeetingButton {
+    background-color: red;
+    color: white;
+    height: 100%;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#bodyRight {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+#participant {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#partiHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#partiHeadLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#partiHeadLeft p {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#partiHead button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    background-color: white;
+    padding: 8px;
+    gap: 10px;
+}
+
+#partiBody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.partiDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.partiDetailLeft {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.partiDetailRight {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+#chat h1{
+    margin: 20px 0px 0px 0px;
+}
+
+.chatDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.chatHead h3{
+    margin: 0px;
+}
+
+.time {
+    margin: 0px;
+    color: gray;
+}
+
+.chatBody {
+    Margin: 0px 0px 0px 45px;
+    padding: 5px;
+    background-color: papayawhip;
+}
+
+#chatFunction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#chatFunction input {
+    border: 0px;
+    background-color: grey;
+    width: 80%;
+}
