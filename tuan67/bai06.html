@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style06.css">
+</head>
+
+<body>
+    <div>
+        <div id="menu">
+            <h2>Standard</h2>
+        </div>
+        <div id="ban_phim">
+            <table style="width: 100px;">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="result" placeholder="0" width="100%">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="%" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="V" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="x^2" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="1/x" onclick="display(value)" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="CE" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="C" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="X" onclick="undo()" /></td>
+                    <td><input type="button" class="button" value=":" onclick="display('/')" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="7" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="8" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="9" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="x" onclick="display('*')" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="4" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="5" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="6" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="-" onclick="display(value)" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="1" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="2" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="3" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="+" onclick="display(value)" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="+-" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="0" onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="." onclick="display(value)" /></td>
+                    <td><input type="button" class="button" value="=" onclick="calc()" /></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="javascript.js">
+    </script>
+</body>
+
+</html>
